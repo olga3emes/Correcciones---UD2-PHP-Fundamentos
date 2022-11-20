@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- CON UN FORMULARIO Y SUS ATRIBUTOS action y method PDOEMOS ACCEDER AL PHP -->
+    <form action="003misDatos.php" class="formulario" method="get"> 
+        <section class="s1">
+            <label for="name">¿Cuál es tu nombre?</label>
+            <input type="text" name="nombre" id="name"><!-- EL ATRIBUTO name HACE REFERENCIA AL VALOR QUE RECIBIRÁ LA VARIBLE EN EL PHP -->
+        </section>
+        <section class="s2">
+            <label for="surname1">¿Cuál es tu primer apellido?</label>
+            <input type="text" name="apellido1" id="surname1">
+        </section>
+        <section class="s3">
+            <label for="surname2">¿Cuál es tu segundo apellido?</label>
+            <input type="text" name="apellido2" id="surname2">
+        </section>
+        <section class="s4">
+            <label for="email">¿Cuál es tu correo?</label>
+            <input type="email" name="correo" id="email">
+        </section>
+        <section class="s5">
+            <label for="birthday">¿Cuál es tu fecha de nacimiento?</label>
+            <input type="date" name="nacimiento" id="birthday">
+        </section>
+        <section class="s6">
+            <label for="mobile">¿Cuál es tu número de teléfono?</label>
+            <input type="text" name="movil" id="mobile">
+        </section>
+        <section class="s7">
+            <input type="submit" value="Enviar">
+        </section>
+    </form>
+</body>
+</html>

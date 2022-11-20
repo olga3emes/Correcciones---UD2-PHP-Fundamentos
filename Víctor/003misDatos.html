@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <form action="003misDatos.php" method="post">
+            <ul>
+             <li>
+               <label for="Nombre">Nombre:</label>
+               <input type="text" id="nombre" name="nombre">
+             </li>
+             <li>
+               <label for="primerApellido">Primer Apellido:</label>
+               <input type="text" id="primer_apellido" name="primer_apellido">
+             </li>
+             <li>
+               <label for="segundoApellido">Segundo Apellido:</label>
+               <input type="text" id="segundo_apellido" name="segundo_apellido">
+            </li>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </li>
+            <li>
+              <label for="tel">Telefono:</label>
+              <input type="tel" id="tel" name="tel">
+            </li>
+            <li>
+            <label for="nacimiento">Edad de Nacimiento:</label>
+            <input type="numbre" min="1900" max="2099" step="1" id="Nacimiento" name="nacimiento">
+          </li>
+            <li>
+              <input id="submit" name="submit" type="submit" value="Enviar">
+            </li>
+            </ul>
+    </form>
+    
+</body>
+</html>
