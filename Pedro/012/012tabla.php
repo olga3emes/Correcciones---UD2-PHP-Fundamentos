@@ -16,7 +16,7 @@
 
             $filas = $_GET["filas"];
             $columnas = $_GET["columnas"];
-
+           //!  controlar los negativos y 0
             for ($i = 1; $i <= $filas; $i++) {
                 echo "<tr>";
                 for ($j = 1; $j <= $columnas; $j++) {

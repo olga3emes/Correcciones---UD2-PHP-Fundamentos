@@ -1,7 +1,7 @@
 <?php
     $filas= $_POST["filas"];
     $columnas= $_POST["columnas"];
-
+  //! controlar los negativos y 0
     print("<table>");
     for($i=0;$i<$filas;$i++){
         print("<tr>");

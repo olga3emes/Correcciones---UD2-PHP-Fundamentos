@@ -18,6 +18,7 @@
              $filas = $_POST['filas'];
              $columnas = $_POST['columnas'];
 
+             //! controlar los negativos y 0-->
                 for ($i = 1; $i <= $filas ; $i++) { 
                    
                     echo "<tr>"; 

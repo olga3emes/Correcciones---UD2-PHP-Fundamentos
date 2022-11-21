@@ -24,6 +24,7 @@ for($i = 0; $i < 100; $i++){
 /*Mediante este segundo for recorremos el $array 
     y miramos $arrayRelleno para
     sumar cuantas veces aparecen los valores M F*/
+    //! array_count_values, esto sobra
 for ($i=0; $i <100 ; $i++) { 
     $array[$arrayRelleno[$i]]+= 1;
 }

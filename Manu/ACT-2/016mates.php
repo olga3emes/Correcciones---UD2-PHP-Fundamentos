@@ -1,6 +1,6 @@
 <?php 
 
-$array[32] = [];
+$array[32] = [];//! NOOOOOOOOO X_X
 
 for ($i=0; $i < sizeof($array); $i++) { 
     $array[$i] = rand(0,100);

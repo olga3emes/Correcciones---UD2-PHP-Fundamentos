@@ -27,5 +27,6 @@ function quitaPorDetras(int $num, int $cant){
 
 echo digitos($num);
 echo digitoN($num, $pos);
-echo quitaPorDetras($num, $cant)
+echo quitaPorDetras($num, $cant);
+//! te falta una función
 ?>

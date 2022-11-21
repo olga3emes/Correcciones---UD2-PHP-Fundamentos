@@ -1,5 +1,5 @@
 <?php
-
+//! Muy bien :)
 function digitos(int $num): int
 {
     return intval(strlen($num));

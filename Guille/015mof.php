@@ -12,7 +12,8 @@ for($i = 0; $i < 100; $i++){
 $contar = ["m" => 0, "f" => 0];
 
 for($i = 0; $i < 100; $i++){
-    if($letras($i) == "m"){ //no entiendo por que sale error en la web
+    if($letras[$i] == "m"){ //no entiendo por que sale error en la web
+        //! porque es con [] --> inaceptable :( y la lógica mal también
         $contar["m"]++;
     }else{
         $contar["f"]++;

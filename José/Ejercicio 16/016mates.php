@@ -1,11 +1,9 @@
 <?php
 
 for ($i = 0; $i < 33; $i++) {
-
-
-    $array [] = rand (0,100);
-
+    $array[] = rand (0,100);
 }
+print_r($array);
 
     echo "El numero mayor es " . max ($array);
     echo "<br>" . "<br>";

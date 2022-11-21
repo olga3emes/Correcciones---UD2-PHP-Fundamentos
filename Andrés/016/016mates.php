@@ -12,6 +12,8 @@ comprendidos entre el 0 y 100 y calcula: El mayor, el menor y la media. -->
         echo "$num[$i]<br>";
         $media =+ $num[$i];
 
+        //! min max array_sum...
+
         if ($menor>$num[$i]) {
             $menor = $num[$i];
         }else if($mayor<$num[$i]){

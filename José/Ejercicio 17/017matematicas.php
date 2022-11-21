@@ -1,5 +1,4 @@
 <?php
-
     declare(strict_types=1);
     function digitos (int $num): int{
 
@@ -8,7 +7,6 @@
         return strlen ($texto);
 
     }
-
     echo digitos (123456789) . "<br>"; 
 
 
@@ -27,7 +25,6 @@
     function quitaPorDetras (int $num, int $cant): int{
 
         $texto = $num."";
-
         $textoresultado = substr($texto, 0, strlen($texto) - $cant);
         $digitonum=intval($textoresultado);
         return $digitonum;   

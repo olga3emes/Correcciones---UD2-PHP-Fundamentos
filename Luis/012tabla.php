@@ -10,6 +10,7 @@
     <?php 
 $fila =$_GET["fila"];
 $columna =$_GET["columna"];
+//!controlar los negativos y 0
     ?>
     <table>
 

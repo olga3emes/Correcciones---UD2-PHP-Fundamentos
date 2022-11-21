@@ -2,6 +2,8 @@
 
 $numeros = [];
 
+//! Lío tremendo, mira las correcciones.
+
 $media = 0;
 for ($i = 0; $i < 33; $i++) {
     $numeros[] = rand(0, 100);

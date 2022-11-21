@@ -16,5 +16,5 @@ for ($fi = 1; $fi <= $filas; $fi++){
 }
 echo "</tr></table>";
 
-
+}
 ?>

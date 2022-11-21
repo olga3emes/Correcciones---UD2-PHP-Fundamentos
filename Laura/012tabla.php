@@ -1,7 +1,7 @@
 <?php
 $col = $_GET["col"];
 $row = $_GET["row"];
-
+//!controlar los negativos y 0
 echo "<table>
         <thead>
             <th colspan = $col>TABLA</th>

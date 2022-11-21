@@ -18,6 +18,7 @@ for($i = 0; $i < 100; $i++){
 
 /* El enunciado especifica que volvamos a recorrer el array para contar,
 pero se podría hacer todo en el mismo bucle for */
+//! array_count_values, esto sobra
 for($i = 0; $i < 100; $i++){
     $asociativo[$array[$i]] += 1;
 }

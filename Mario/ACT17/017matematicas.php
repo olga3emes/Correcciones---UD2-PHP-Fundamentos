@@ -1,7 +1,7 @@
 <?php 
 
 $num = 23746;
-
+//! es más sencillo lo has enreversado mucho
 echo "<b>Función 1:</b><br> El número introducido tiene " .digitos($num). " dígitos.";
 
 function digitos ($num) {

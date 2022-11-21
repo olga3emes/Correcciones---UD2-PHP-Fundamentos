@@ -28,9 +28,12 @@
     contenido del array recibido y en VALOR las veces que se repite en dicho array*/
     $listaAsociativa = array_count_values($lista);
 
+    //! array_count_values, esto sobra
     foreach ($listaAsociativa as $moF => $veces) {
         echo "$moF : $veces<br>";
     }
+
+    //! con print_r($lista asociativa)
     ?>
 </body>
 

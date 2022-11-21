@@ -1,7 +1,7 @@
 <?php
 
 $letras = ["M","F"];
-$array[99] = [];
+$array[99] = []; //! LOCURAAAAAAAAAAAA X_X
 
 for ($i=0; $i < 100; $i++) { 
     $array[$i] = $letras[rand(0,1)];  

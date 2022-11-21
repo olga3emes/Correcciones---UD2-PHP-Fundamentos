@@ -22,43 +22,27 @@ archivo. -->
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td>Nombre:</td>
-            <td>
-                <?= $nombre ?>
-            </td>
-        </tr>
-        <tr>
-            <td>Primer Apellido:</td>
-            <td>
-                <?= $apellido1 ?>
-            </td>
-        </tr>
-        <tr>
-            <td>Segundo Apellido:</td>
-            <td>
-                <?= $apellido2 ?>
-            </td>
-        </tr>
-        <tr>
-            <td>Email:</td>
-            <td>
-                <?= $email ?>
-            </td>
-        </tr>
-        <tr>
-            <td>Año nacimiento:</td>
-            <td>
-                <?= $yearNac ?>
-            </td>
-        </tr>
-        <tr>
-            <td>Móvil:</td>
-            <td>
-                <?= $movil ?>
-            </td>
-        </tr>
+<table>
+        <thead>
+       <tr>
+        <td>Nombre</td>
+        <td>Primer Apellido</td>
+        <td>Segundo Apellido</td>
+        <td>Email</td>
+        <td>Año Nacimiento</td>
+        <td>Móvil</td>
+       </tr> 
+       </thead>
+       <tbody>
+       <tr>
+        <td><?= $nombre?></td>
+        <td><?= $apellido1?></td>
+        <td><?= $apellido2?></td>
+        <td><?= $email?></td>
+        <td><?= $yearNac?></td>
+        <td><?= $movil?></td>
+       </tr>
+       </tbody>
     </table>
 </body>
 

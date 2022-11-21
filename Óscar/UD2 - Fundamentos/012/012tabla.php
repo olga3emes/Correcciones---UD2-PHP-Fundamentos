@@ -1,6 +1,7 @@
 <?php 
 $filas = $_GET["filas"];
 $columnas = $_GET["columnas"];
+//! controlar los negativos y 0
 ?>
 <!DOCTYPE html>
 <html lang="en">

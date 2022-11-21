@@ -4,11 +4,16 @@ comprendidos entre el 0 y 100 y calcula: El mayor, el menor y la media. -->
 $elementos = [];
 $suma = 0;
 for ($i = 0; $i <= 33; $i++) {
-    $random = rand(0, 100);
+    /*$random = rand(0, 100);
     $elementos[$i] = $random;
-    $suma = $suma + $elementos[$i];
+    $suma = $suma + $elementos[$i]; */
+
+    //! esto es absurdo
+
+    $elementos[$i]=rand(0,100);
 }
-$media = $suma / 33;
+//$media = $suma / 33; //! Así:
+$suma = array_sum($elementos);
 echo "El numero mayor es " . max($elementos) . "<br>";
 echo "El numero menor es " . min($elementos) . "<br>";
 echo "La media es " . $media . "<br>";

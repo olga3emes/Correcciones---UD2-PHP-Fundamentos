@@ -12,6 +12,7 @@ comprendidos entre el 0 y 100 y calcula: El mayor, el menor y la media. -->
     $elementoMenor = min($elementos);
     $media = 0;
 
+    //!Nooooo array_ sum / count
     foreach($elementos as $elementoX){
         $media += $elementoX;
     }

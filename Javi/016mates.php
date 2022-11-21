@@ -1,5 +1,5 @@
 <?php 
-    $array[31]=[];
+    $array[31]=[]; //! Nooooooooo X_X
     
     for($i=0;$i<32;$i++){
         $array[$i]=rand(0,100);

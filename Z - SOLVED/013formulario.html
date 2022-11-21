@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>012formulario.html</title>
+    <title>013formulario</title>
 </head>
 <body>
-    <form action="012tabla.php" method="get">
+    <form action="013cuadrada.php" method="get">
         <fieldset>
             <label for="filas">Número de filas</label>
-            <input type="number" name="filas" required  id="filas">
-             <!-- //! Deberías poner required en los campos como mínimo y controlar los negativos y 0-->
+            <input type="number" name="filas" min="1" required id="filas">
             <label for="columnas">Número de columnas</label>
-            <input type="number" name="columnas" required  id="columnas">
+            <input type="number" name="columnas" min="1" required id="columnas">
             <input type="submit" value="submit">
         </fieldset>
     </form>

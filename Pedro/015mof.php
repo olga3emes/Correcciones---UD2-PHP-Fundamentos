@@ -9,11 +9,18 @@ for ($i = 0; $i < 100; $i++) {
         $contenedor[] = "F";
     }
 }
-$diccionario["M"] = 0;
+
+//! así
+print_r(array_count_values($contenedor));
+
+
+//! de aquí para abajo cacota
+/*$diccionario["M"] = 0;
 $diccionario["F"] = 0;
+
 
 for ($i = 0; $i < count($contenedor); $i++) {
     $diccionario[$contenedor[$i]] += 1;
 }
 
-var_dump($diccionario);
+var_dump($diccionario);*/

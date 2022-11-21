@@ -22,7 +22,7 @@ $arrayRespuestas = ['Sí','No',
                     'Por supuesto que no',
                     'No lo tengo claro',
                     'Seguro','Yo diría que sí',
-                    'Ni de coña','Claro que si guapi'];
+                    'Ni de coña','Claro que si guapi']; //! ¬¬
 
 echo "<h1>".$pregunta."</h1><br>"; 
 echo"<p>".$arrayRespuestas[array_rand($arrayRespuestas)]."</p>";   

@@ -1,7 +1,7 @@
 <?php 
 
 $numero = 123456789;
-
+//! lo has enreversado mucho!!!!
 echo "La cantidad de cifras de ". $numero . " es ". digitos($numero)."<br><br>";
 
 function digitos(int $numero) : int{

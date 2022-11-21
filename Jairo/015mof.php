@@ -14,6 +14,7 @@ resultado por pantalla. -->
         (rand(1,2) == 1) ? array_push($elementosMF, "M") : array_push($elementosMF, "F");
     };
 
+    //!  array_count_values en vez del foreach
     foreach($elementosMF as $elementoX){
         ($elementoX == "M") ? $numElementosMF["M"]++: $numElementosMF["F"]++;
     }

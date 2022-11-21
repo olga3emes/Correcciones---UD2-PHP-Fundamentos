@@ -18,6 +18,7 @@ digitoN($num, 4);
 quitaPorDetras($num, 2);
 quitaPorDelante($num, 2);
 
+//! bastante bien, simplifica algunas cosas
 function digitos($num)
 {
     echo "El numero de digitos es: " . strlen($num) . "<br>";

@@ -1,8 +1,9 @@
 <?php
 
+//! pides que la función devuelva un :int pero devuelves un string.
 function digitos(int $num): int
 {
-    return strval(strlen($num));
+    return strval(strlen($num)); 
 }
 
 function digitoN(int $num, int $pos): int

@@ -2,7 +2,7 @@
 
     $fila = $_GET["filas"];
     $columna = $_GET["columnas"];
-
+    //!controlar los negativos y 0
     print("<table>");
     for ($i=0; $i < $fila; $i++) {
                 

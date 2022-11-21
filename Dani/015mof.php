@@ -8,6 +8,9 @@ for ($i = 0; $i < 100; $i++) {
 
 $arrayAsociativo = array_count_values($arrayFinal);
 
-foreach ($arrayAsociativo as $clave => $nVeces) {
+//! Innecesario -> print_r( del array asociativo);
+foreach ($arrayAsociativo as $clave => $nVeces) { //! innecesario
     echo "$clave : $nVeces veces </br>";
 };
+//! esto
+print_r($arrayAsociativo);
