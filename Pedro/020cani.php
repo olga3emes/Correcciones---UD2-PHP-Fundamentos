@@ -8,7 +8,7 @@ function cadenaCani(string $cadena): string
         if ($i % 2 == 0) {
             $res = $res.strtoupper(substr($cadena, $i, 1));
         }else{
-            $res = $res.substr($cadena, $i, 1);
+            $res = $res.substr($cadena, $i, 1); //! das por supuesto que está en minúsculas
         }
     }
     return $res;

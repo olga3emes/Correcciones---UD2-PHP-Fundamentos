@@ -14,7 +14,7 @@ function CrearContraseña($tamaño)
         $numerosRandom = rand(0, 9);
         $DesdeLetra = "a";
         $HastaLetra = "z";
-        $letraAleatoria = chr(rand(ord($DesdeLetra), ord($HastaLetra)));
+        $letraAleatoria = chr(rand(ord($DesdeLetra), ord($HastaLetra))); //! aquí se te ha ido la olla, demasiadas conversiones.
         $numElec = rand(0, 1);
         $generarcontraseña = [$numerosRandom , $letraAleatoria];
         $contraseña[$i] = $generarcontraseña[$numElec];

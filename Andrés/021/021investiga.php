@@ -41,7 +41,7 @@ El MD5 se basa en una función hash que verifica que un archivo que ha enviado c
 
 <?php
 $str = "Hola Olga";
-// echo  md5($str);  Muestra la cadena en formato alfanumérico.
+echo  md5($str);  //Muestra la cadena en formato alfanumérico.
 
 if (md5($str) == "20d6fde88a87252b566d5b9e637bf844") //En caso de que coincidan se mostrará el mensaje sin encriptar.
   {
